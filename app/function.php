@@ -10,7 +10,7 @@ function CreateJWT($username = "defaultUser")
 {
     $key = "dragon";
     $header = [
-        "alg" => "HS512",
+        "alg" => "HS256",
         "typ" => "JWT"
     ];
 
